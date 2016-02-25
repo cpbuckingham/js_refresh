@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+  <script type="text/javascript">
+    function doFirst(){
+      document.write("I am first"+"<br>")
+    }
+    function doSecond(){
+      document.write("I am second"+"<br>")
+    }
+    function start(){
+      doFirst();
+      doSecond();
+    }
+    start();
+    function dofirst(){
+      document.write("I am first")
+      dosecond();
+    }
+    function dosecond(){
+      document.write("I am second")
+      dofirst();
+    }
+    dofirst();
+  </script>
+</body>
+</html>

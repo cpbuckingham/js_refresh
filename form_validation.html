@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+  <form name="camform">
+   <input type="checkbox" value="thebox" />
+   <input type="button" value="press me" onclick="validator()" />
+  </form>
+  <script type="text/javascript">
+    function validator(){
+      if (document.camform.thebox.checked)
+        alert("yep its checked");
+      else
+        alert("not checked");
+      }
+  </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+  <form name="camform">
+    Username: <input type="text" name="username"/>
+    Password: <input type="password" name="password" />
+   <input type="submit" value="submit" />
+  </form>
+  <script type="text/javascript">
+  var y = document.forms[0].elements[0].name;
+  var x = document.forms[0].elements[1].name;
+  var cam = document.camform.username.name;
+  document.write(x, y, cam);
+
+  </script>
+</body>
+</html>
